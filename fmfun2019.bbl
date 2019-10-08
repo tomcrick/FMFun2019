@@ -1,0 +1,669 @@
+\begin{thebibliography}{10}
+\providecommand{\bibitemdeclare}[2]{}
+\providecommand{\surnamestart}{}
+\providecommand{\surnameend}{}
+\providecommand{\urlprefix}{Available at }
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{\texttt{#2}}
+\providecommand{\urlalt}[2]{\href{#1}{#2}}
+\providecommand{\doi}[1]{doi:\urlalt{http://dx.doi.org/#1}{#1}}
+\providecommand{\bibinfo}[2]{#2}
+
+\bibitemdeclare{inproceedings}{AndersonNeedham1995}
+\bibitem{AndersonNeedham1995}
+\bibinfo{author}{R.J. \surnamestart Anderson\surnameend} \&
+  \bibinfo{author}{R.M. \surnamestart Needham\surnameend}
+  (\bibinfo{year}{1995}): \emph{\bibinfo{title}{{Programming Satan's
+  Computer}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Computer Science Today}}, {\sl
+  \bibinfo{series}{Springer Lecture Notes in Computer Science}}
+  \bibinfo{volume}{1000}, pp. \bibinfo{pages}{426--440}.
+
+\bibitemdeclare{inproceedings}{AustinWilliams2011a}
+\bibitem{AustinWilliams2011a}
+\bibinfo{author}{A.~\surnamestart Austin\surnameend} \&
+  \bibinfo{author}{L.~\surnamestart Williams\surnameend}
+  (\bibinfo{year}{2011}): \emph{\bibinfo{title}{{One technique is not enough: A
+  comparison of vulnerability discovery techniques}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings 2011 International Symposium
+  on Empirical Software Engineering and Measurement}}, pp.
+  \bibinfo{pages}{97--106}.
+
+\bibitemdeclare{article}{Bartsch2011a}
+\bibitem{Bartsch2011a}
+\bibinfo{author}{S.~\surnamestart Bartsch\surnameend} (\bibinfo{year}{2011}):
+  \emph{\bibinfo{title}{{Practitioners' Perspectives on Security in Agile
+  Development}}}.
+\newblock {\sl \bibinfo{journal}{In International Conference on Availability
+  Reliability and Security}}, pp. \bibinfo{pages}{479--484}.
+
+\bibitemdeclare{misc}{BBC2014b}
+\bibitem{BBC2014b}
+\bibinfo{author}{\surnamestart BBC\surnameend} (\bibinfo{year}{2014}):
+  \emph{\bibinfo{title}{{US government warns of Heartbleed bug danger}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.bbc.co.uk/news/technology-26985818}}.
+
+\bibitemdeclare{misc}{BBC2018o}
+\bibitem{BBC2018o}
+\bibinfo{author}{\surnamestart BBC\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Marriott hack hits 500 million Starwood guests}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.bbc.co.uk/news/technology-46401890}}.
+
+\bibitemdeclare{misc}{Becketal2001}
+\bibitem{Becketal2001}
+\bibinfo{author}{\surnamestart {Beck,K. {\it et al.}}\surnameend}
+  (\bibinfo{year}{2001}): \emph{\bibinfo{title}{{The Agile Manifesto}}}.
+\newblock \bibinfo{howpublished}{\url{http://agilemanifesto.org/}}.
+
+\bibitemdeclare{misc}{Biscoe2018a}
+\bibitem{Biscoe2018a}
+\bibinfo{author}{C.~\surnamestart Biscoe\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{MyFitnessPal data breach: 150 million app users
+  affected}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.itgovernance.co.uk/blog/myfitnesspal-data-breach-150-million-app-users-affected/}}.
+
+\bibitemdeclare{misc}{Blackmon2018a}
+\bibitem{Blackmon2018a}
+\bibinfo{author}{A.~\surnamestart Blackmon\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Macy's hit by data breach}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://eu.freep.com/story/money/business/2018/07/06/macys-data-breach-online/763074002/}}.
+
+\bibitemdeclare{misc}{Blodget2009a}
+\bibitem{Blodget2009a}
+\bibinfo{author}{H.~\surnamestart Blodget\surnameend} (\bibinfo{year}{2009}):
+  \emph{\bibinfo{title}{{Mark Zuckerberg On Innovation}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.businessinsider.com/mark-zuckerberg-innovation-2009-10}}.
+
+\bibitemdeclare{misc}{Bloomberg2018b}
+\bibitem{Bloomberg2018b}
+\bibinfo{author}{\surnamestart Bloomberg\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Equifax Hack Lasted for 76 Days, Compromised 148
+  Million People, Government Report Says}}}.
+\newblock
+  \bibinfo{howpublished}{\url{http://fortune.com/2018/12/10/equifax-hack-lasted-for-76-days-compromised-148-million-people-government-report-says/}}.
+
+\bibitemdeclare{inproceedings}{BrainSchanda2012a}
+\bibitem{BrainSchanda2012a}
+\bibinfo{author}{M.~\surnamestart Brain\surnameend} \&
+  \bibinfo{author}{F.~\surnamestart Schanda\surnameend} (\bibinfo{year}{2012}):
+  \emph{\bibinfo{title}{A Lightweight Technique for Distributed and Incremental
+  Verification}}.
+\newblock In \bibinfo{editor}{Rajeev \surnamestart Joshi\surnameend},
+  \bibinfo{editor}{Peter \surnamestart M\"uller\surnameend} \&
+  \bibinfo{editor}{Andreas \surnamestart Podelski\surnameend}, editors: {\sl
+  \bibinfo{booktitle}{Verified Software: Theories, Tools, Experiments}}, {\sl
+  \bibinfo{series}{LNCS}} \bibinfo{volume}{7152},
+  \bibinfo{publisher}{Springer}, \bibinfo{address}{Berlin--Heidelberg--New
+  York}, pp. \bibinfo{pages}{114--129}, \doi{10.1007/978-3-642-27705-4\_10}.
+
+\bibitemdeclare{misc}{Cable2019a}
+\bibitem{Cable2019a}
+\bibinfo{author}{J.~\surnamestart Cable\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Every Computer Science Degree Should Require a Course
+  in Cybersecurity}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://hbr.org/2019/08/every-computer-science-degree-should-require-a-course-in-cybersecurity}}.
+
+\bibitemdeclare{article}{Cavalcantietal2017a}
+\bibitem{Cavalcantietal2017a}
+\bibinfo{author}{A.~\surnamestart Cavalcanti\surnameend},
+  \bibinfo{author}{A.~\surnamestart Miyazawa\surnameend},
+  \bibinfo{author}{A.~\surnamestart Wellings\surnameend},
+  \bibinfo{author}{J.~\surnamestart Woodcock\surnameend} \&
+  \bibinfo{author}{S.~\surnamestart Zhao\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{{Java in the Safety-Critical Domain}}}.
+\newblock {\sl \bibinfo{journal}{SETSS 2016: Engineering Trustworthy Software
+  Systems}}, pp. \bibinfo{pages}{110--150}.
+
+\bibitemdeclare{article}{CPNI2019a}
+\bibitem{CPNI2019a}
+\bibinfo{author}{\surnamestart {Centre for the Protection of National
+  Infrastructure}\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Rail Code of Practice for Security-Informed Safety}}}.
+\newblock {\sl \bibinfo{journal}{CPNI}}.
+
+\bibitemdeclare{inproceedings}{Chapman2016a}
+\bibitem{Chapman2016a}
+\bibinfo{author}{R.~\surnamestart Chapman\surnameend} (\bibinfo{year}{2016}):
+  \emph{\bibinfo{title}{{Industrial experience with Agile in high-integrity
+  software development}}}.
+\newblock In \bibinfo{editor}{M.~\surnamestart Parsons\surnameend} \&
+  \bibinfo{editor}{T.~\surnamestart Anderson\surnameend}, editors: {\sl
+  \bibinfo{booktitle}{Developing Safe Systems: Proceedings of the Twenty-fourth
+  Safety-critical Systems Symposium}}, \bibinfo{publisher}{Safety-Critical
+  Systems Club}, pp. \bibinfo{pages}{143--154}.
+
+\bibitemdeclare{misc}{Chapman2018b}
+\bibitem{Chapman2018b}
+\bibinfo{author}{R.~\surnamestart Chapman\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Development and Formal Verification of Secure Updates
+  for Embedded Systems (slides from Verification 2018)}}}.
+\newblock
+  \bibinfo{howpublished}{\url{http://www.testandverification.com/conferences/verification-futures/vf2018/}}.
+
+\bibitemdeclare{misc}{ChapmanMoy2018a}
+\bibitem{ChapmanMoy2018a}
+\bibinfo{author}{R.~\surnamestart Chapman\surnameend} \&
+  \bibinfo{author}{Y.~\surnamestart Moy\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{AdaCore Technologies for Cyber Security}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.adacore.com/books/adacore-tech-for-cyber-security}}.
+
+\bibitemdeclare{misc}{Chenetal2019a}
+\bibitem{Chenetal2019a}
+\bibinfo{author}{M.~\surnamestart Chen\surnameend},
+  \bibinfo{author}{F.~\surnamestart Fischer\surnameend},
+  \bibinfo{author}{N.~\surnamestart Meng\surnameend},
+  \bibinfo{author}{X.~\surnamestart Wang\surnameend} \&
+  \bibinfo{author}{J.~\surnamestart Grossklags\surnameend}
+  (\bibinfo{year}{2019}): \emph{\bibinfo{title}{{How Reliable is the
+  Crowdsourced Knowledge of Security Implementation?}}}
+\newblock \bibinfo{howpublished}{\url{https://arxiv.org/abs/1901.01327}}.
+
+\bibitemdeclare{misc}{Cimpanu2019s}
+\bibitem{Cimpanu2019s}
+\bibinfo{author}{C.~\surnamestart Cimpanu\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{7-Eleven Japanese customers lose \$500,000 due to
+  mobile app flaw}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.zdnet.com/article/7-eleven-japanese-customers-lose-500000-due-to-mobile-app-flaw/}}.
+
+\bibitemdeclare{misc}{Cricketal2019a}
+\bibitem{Cricketal2019a}
+\bibinfo{author}{T.~\surnamestart Crick\surnameend}, \bibinfo{author}{J.H.
+  \surnamestart Davenport\surnameend}, \bibinfo{author}{A.~\surnamestart
+  Irons\surnameend} \& \bibinfo{author}{T.~\surnamestart Prickett\surnameend}
+  (\bibinfo{year}{2019}): \emph{\bibinfo{title}{{A UK Case Study on
+  Cybersecurity Education and Accreditation}}}.
+\newblock \bibinfo{howpublished}{\url{https://arxiv.org/abs/1906.09584}}.
+
+\bibitemdeclare{article}{Distefanoetal2019a}
+\bibitem{Distefanoetal2019a}
+\bibinfo{author}{D.~\surnamestart Distefano\surnameend},
+  \bibinfo{author}{M.~\surnamestart F\"ahndrich\surnameend},
+  \bibinfo{author}{F.~\surnamestart Logozzo\surnameend} \&
+  \bibinfo{author}{P.W. \surnamestart O'Hearn\surnameend}
+  (\bibinfo{year}{2019}): \emph{\bibinfo{title}{{Scaling static analyses at
+  Facebook}}}.
+\newblock {\sl \bibinfo{journal}{Communications of the ACM}}
+  \bibinfo{volume}{62}, pp. \bibinfo{pages}{62--70}.
+
+\bibitemdeclare{article}{Fischeretal2017a}
+\bibitem{Fischeretal2017a}
+\bibinfo{author}{F.~\surnamestart Fischer\surnameend},
+  \bibinfo{author}{K.~\surnamestart B\"ottinger\surnameend},
+  \bibinfo{author}{H.~\surnamestart Xiao\surnameend},
+  \bibinfo{author}{C.~\surnamestart Stransky\surnameend},
+  \bibinfo{author}{Y.~\surnamestart Acar\surnameend},
+  \bibinfo{author}{M.~\surnamestart Backes\surnameend} \&
+  \bibinfo{author}{S.~\surnamestart Fahl\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{{Stack Overflow Considered Harmful? The Impact of
+  Copy\&Paste on Android Application Security}}}.
+\newblock {\sl \bibinfo{journal}{38th IEEE Symposium on Security and Privacy
+  (SP)}}, pp. \bibinfo{pages}{121--136}.
+
+\bibitemdeclare{article}{Fischeretal2019a}
+\bibitem{Fischeretal2019a}
+\bibinfo{author}{F.~\surnamestart Fischer\surnameend},
+  \bibinfo{author}{H.~\surnamestart Xiao\surnameend}, \bibinfo{author}{C.-Y.
+  \surnamestart Kao\surnameend}, \bibinfo{author}{Y.~\surnamestart
+  Stachelscheid\surnameend}, \bibinfo{author}{B.~\surnamestart
+  Johnson\surnameend}, \bibinfo{author}{D.~\surnamestart Razar\surnameend},
+  \bibinfo{author}{P.~\surnamestart Fawkesley\surnameend},
+  \bibinfo{author}{N.~\surnamestart Buckley\surnameend},
+  \bibinfo{author}{K.~\surnamestart B\"ottinger\surnameend},
+  \bibinfo{author}{P.~\surnamestart Muntean\surnameend} \&
+  \bibinfo{author}{J.~\surnamestart Grossklags\surnameend}
+  (\bibinfo{year}{2019}): \emph{\bibinfo{title}{{Stack Overflow Considered
+  Helpful! Deep Learning Security Nudges Towards Stronger Cryptography}}}.
+\newblock {\sl \bibinfo{journal}{28th {USENIX} Security Symposium ({USENIX}
+  Security 19)}}.
+
+\bibitemdeclare{misc}{Ford2019b}
+\bibitem{Ford2019b}
+\bibinfo{author}{N.~\surnamestart Ford\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Medical debt collection agency files for bankruptcy
+  protection after data breach}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.itgovernance.co.uk/blog/medical-debt-collection-agency-files-for-bankruptcy-protection-after-data-breach}}.
+
+\bibitemdeclare{misc}{Google2018a}
+\bibitem{Google2018a}
+\bibinfo{author}{\surnamestart {Google (Chris Povirk)}\surnameend}
+  (\bibinfo{year}{2018}): \emph{\bibinfo{title}{{Denial of Service
+  vulnerability for servers that use Guava and deserialize attacker data}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://groups.google.com/forum/\#!topic/guava-announce/xqWALw4W1vs/discussion}}.
+
+\bibitemdeclare{misc}{Google2019g}
+\bibitem{Google2019g}
+\bibinfo{author}{\surnamestart {Google (Project Zero)}\surnameend}
+  (\bibinfo{year}{2019}): \emph{\bibinfo{title}{{0day ``In the Wild''}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://googleprojectzero.blogspot.com/p/0day.html}}.
+
+\bibitemdeclare{inproceedings}{GuarnieriLivshits2009}
+\bibitem{GuarnieriLivshits2009}
+\bibinfo{author}{S.~\surnamestart Guarnieri\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Livshits\surnameend}
+  (\bibinfo{year}{2009}): \emph{\bibinfo{title}{{GATEKEEPER: Mostly Static
+  Enforcement of Security and Reliability Policies for JavaScript Code}}}.
+\newblock In: {\sl \bibinfo{booktitle}{USENIX Security Symposium}},
+  \bibinfo{volume}{10}, pp. \bibinfo{pages}{76--85}.
+\newblock
+  \urlprefix\url{http://static.usenix.org/events/sec09/tech/full_papers/sec09_javascript.pdf}.
+
+\bibitemdeclare{inproceedings}{Heetal2005}
+\bibitem{Heetal2005}
+\bibinfo{author}{C.~\surnamestart He\surnameend},
+  \bibinfo{author}{M.~\surnamestart Sundararajan\surnameend},
+  \bibinfo{author}{A.~\surnamestart Datta\surnameend},
+  \bibinfo{author}{A.~\surnamestart Derek\surnameend} \& \bibinfo{author}{J.C.
+  \surnamestart Mitchell\surnameend} (\bibinfo{year}{2005}):
+  \emph{\bibinfo{title}{{A Modular Correctness Proof of IEEE 802.11i and
+  TLS}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings 12th ACM conference on
+  Computer and communications security}}, pp. \bibinfo{pages}{2--15}.
+
+\bibitemdeclare{inproceedings}{vanderHeijdenetal2018a}
+\bibitem{vanderHeijdenetal2018a}
+\bibinfo{author}{A.~\surnamestart van~der Heijden\surnameend},
+  \bibinfo{author}{C.~\surnamestart Broasca\surnameend} \&
+  \bibinfo{author}{A.~\surnamestart Serebrenik\surnameend}
+  (\bibinfo{year}{2018}): \emph{\bibinfo{title}{An Empirical Perspective on
+  Security Challenges in Large-scale Agile Software Development}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings of the 12th ACM/IEEE
+  International Symposium on Empirical Software Engineering and Measurement}},
+  \bibinfo{series}{ESEM '18}, \bibinfo{publisher}{ACM}, \bibinfo{address}{New
+  York, NY, USA}, pp. \bibinfo{pages}{45:1--45:4},
+  \doi{10.1145/3239235.3267426}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/3239235.3267426}.
+
+\bibitemdeclare{misc}{Heiser2019a}
+\bibitem{Heiser2019a}
+\bibinfo{author}{G.~\surnamestart Heiser\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{What's new in the world of seL4}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://archive.fosdem.org/2019/schedule/event/world_of_sel4/}}.
+
+\bibitemdeclare{misc}{Housley2005}
+\bibitem{Housley2005}
+\bibinfo{author}{R.~\surnamestart Housley\surnameend} (\bibinfo{year}{2005}):
+  \emph{\bibinfo{title}{{Using Cryptographic Message Syntax (CMS) to Protect
+  Firmware Packages}}}.
+\newblock \bibinfo{howpublished}{RFC-4108}.
+
+\bibitemdeclare{misc}{Inbenta2018a}
+\bibitem{Inbenta2018a}
+\bibinfo{author}{\surnamestart {Inbenta (CEO)}\surnameend}
+  (\bibinfo{year}{2018}): \emph{\bibinfo{title}{{Inbenta and the Ticketmaster
+  Data Breach}}}.
+\newblock
+  \bibinfo{howpublished}{\url{http://web.archive.org/web/20181121184620/}}.
+
+\bibitemdeclare{misc}{Irwin2019b}
+\bibitem{Irwin2019b}
+\bibinfo{author}{L.~\surnamestart Irwin\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Marriott downgrades severity of 2018 data breach: 383
+  million customers affected}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.itgovernance.co.uk/blog/marriott-downgrades-severity-of-2018-data-breach-383-million-customers-affected}}.
+
+\bibitemdeclare{misc}{ISO2013d}
+\bibitem{ISO2013d}
+\bibinfo{author}{\surnamestart ISO/IEC\surnameend} (\bibinfo{year}{2013}):
+  \emph{\bibinfo{title}{{TS 17961:2013, Information technology --- Programming
+  languages, their environments \& system software interfaces --- C Secure
+  Coding Rules}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.iso.org/standard/61134.html}}.
+
+\bibitemdeclare{article}{Kleinetal2009a}
+\bibitem{Kleinetal2009a}
+\bibinfo{author}{G.~\surnamestart Klein\surnameend},
+  \bibinfo{author}{K.~\surnamestart Elphinstone\surnameend},
+  \bibinfo{author}{G.~\surnamestart Heiser\surnameend},
+  \bibinfo{author}{J.~\surnamestart Andronick\surnameend},
+  \bibinfo{author}{D.~\surnamestart Cock\surnameend},
+  \bibinfo{author}{P.~\surnamestart Derrin\surnameend},
+  \bibinfo{author}{D.~\surnamestart Elkaduwe\surnameend},
+  \bibinfo{author}{K.~\surnamestart Engelhardt\surnameend},
+  \bibinfo{author}{R.~\surnamestart Kolanski\surnameend},
+  \bibinfo{author}{M.~\surnamestart Norrish\surnameend} \&
+  \bibinfo{author}{T.~\surnamestart Sewell\surnameend} (\bibinfo{year}{2009}):
+  \emph{\bibinfo{title}{{seL4: Formal verification of an OS kernel}}}.
+\newblock {\sl \bibinfo{journal}{In Proceedings of the ACM SIGOPS 22nd
+  symposium on Operating systems principles}}, pp. \bibinfo{pages}{207--220}.
+
+\bibitemdeclare{misc}{Kotowicz2019a}
+\bibitem{Kotowicz2019a}
+\bibinfo{author}{K.~\surnamestart Kotowicz\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Trusted Types help prevent Cross-Site Scripting}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://developers.google.com/web/updates/2019/02/trusted-types}}.
+
+\bibitemdeclare{inproceedings}{Krawczyketal2013a}
+\bibitem{Krawczyketal2013a}
+\bibinfo{author}{Hugo \surnamestart Krawczyk\surnameend},
+  \bibinfo{author}{Kenneth~G. \surnamestart Paterson\surnameend} \&
+  \bibinfo{author}{Hoeteck \surnamestart Wee\surnameend}
+  (\bibinfo{year}{2013}): \emph{\bibinfo{title}{On the Security of the TLS
+  Protocol: A Systematic Analysis}}.
+\newblock In \bibinfo{editor}{Ran \surnamestart Canetti\surnameend} \&
+  \bibinfo{editor}{Juan~A. \surnamestart Garay\surnameend}, editors: {\sl
+  \bibinfo{booktitle}{Advances in Cryptology -- CRYPTO 2013}},
+  \bibinfo{publisher}{Springer Berlin Heidelberg}, \bibinfo{address}{Berlin,
+  Heidelberg}, pp. \bibinfo{pages}{429--448}.
+
+\bibitemdeclare{misc}{Lane2018a}
+\bibitem{Lane2018a}
+\bibinfo{author}{A.~\surnamestart Lane\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Security + Agile = FAIL}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://securosis.com/assets/library/presentations/Security/AgileFAIL_OWASP.ppt_.pdf}}.
+
+\bibitemdeclare{misc}{Lenart2017a}
+\bibitem{Lenart2017a}
+\bibinfo{author}{L.~\surnamestart Lenart\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{{Security Bulletin S2-045}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://cwiki.apache.org/confluence/display/WW/S2-045}}.
+
+\bibitemdeclare{inproceedings}{LivshitsLam2005}
+\bibitem{LivshitsLam2005}
+\bibinfo{author}{V.B. \surnamestart Livshits\surnameend} \&
+  \bibinfo{author}{M.S. \surnamestart Lam\surnameend} (\bibinfo{year}{2005}):
+  \emph{\bibinfo{title}{{Finding Security Vulnerabilities in Java Applications
+  with Static Analysis}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings USENIX Security Symposium}},
+  pp. \bibinfo{pages}{271--286}.
+
+\bibitemdeclare{inproceedings}{Maffeisetal2009}
+\bibitem{Maffeisetal2009}
+\bibinfo{author}{S.~\surnamestart Maffeis\surnameend}, \bibinfo{author}{J.C.
+  \surnamestart Mitchell\surnameend} \& \bibinfo{author}{A.~\surnamestart
+  Taly\surnameend} (\bibinfo{year}{2009}): \emph{\bibinfo{title}{{Isolating
+  JavaScript with Filters, Rewriting, and Wrappers}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings ESORICS 2009}}, pp.
+  \bibinfo{pages}{505--522}.
+
+\bibitemdeclare{inproceedings}{MaffeisTaly2009}
+\bibitem{MaffeisTaly2009}
+\bibinfo{author}{S.~\surnamestart Maffeis\surnameend} \&
+  \bibinfo{author}{A.~\surnamestart Taly\surnameend} (\bibinfo{year}{2009}):
+  \emph{\bibinfo{title}{{Language-based isolation of untrusted Javascript}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings 22nd IEEE Computer Security
+  Foundations Symposium}}, pp. \bibinfo{pages}{77--91}.
+
+\bibitemdeclare{book}{McGraw2006}
+\bibitem{McGraw2006}
+\bibinfo{author}{G.~\surnamestart McGraw\surnameend} (\bibinfo{year}{2006}):
+  \emph{\bibinfo{title}{{Software Security --- Building Security In}}}.
+\newblock \bibinfo{publisher}{Addison-Wesley}.
+
+\bibitemdeclare{article}{Mengetal2018a}
+\bibitem{Mengetal2018a}
+\bibinfo{author}{N.~\surnamestart Meng\surnameend},
+  \bibinfo{author}{S.~\surnamestart Nagy\surnameend},
+  \bibinfo{author}{D.~\surnamestart Yao\surnameend},
+  \bibinfo{author}{W.~\surnamestart Zhuang\surnameend} \&
+  \bibinfo{author}{G.~\surnamestart Arango~Argoty\surnameend}
+  (\bibinfo{year}{2018}): \emph{\bibinfo{title}{{Secure coding practices in
+  Java: Challenges and vulnerabilities}}}.
+\newblock {\sl \bibinfo{journal}{In 2018 IEEE/ACM 40th International Conference
+  on Software Engineering (ICSE)}}, pp. \bibinfo{pages}{372--383}.
+
+\bibitemdeclare{inproceedings}{MeyerovichLivshits2010a}
+\bibitem{MeyerovichLivshits2010a}
+\bibinfo{author}{L.A. \surnamestart Meyerovich\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Livshits\surnameend}
+  (\bibinfo{year}{2010}): \emph{\bibinfo{title}{ConScript: Specifying and
+  enforcing fine-grained security policies for Javascript in the browser}}.
+\newblock In: {\sl \bibinfo{booktitle}{2010 IEEE Symposium on Security and
+  Privacy}}, \bibinfo{organization}{IEEE}, pp. \bibinfo{pages}{481--496}.
+
+\bibitemdeclare{misc}{Molleretal2014a}
+\bibitem{Molleretal2014a}
+\bibinfo{author}{B.~\surnamestart M\"oller\surnameend},
+  \bibinfo{author}{T.~\surnamestart Duong\surnameend} \&
+  \bibinfo{author}{K.~\surnamestart Kotowicz\surnameend}
+  (\bibinfo{year}{2014}): \emph{\bibinfo{title}{{This POODLE Bites: Exploiting
+  The SSL 3.0 Fallback (Security Advisory)}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.openssl.org/~bodo/ssl-poodle.pdf}}.
+
+\bibitemdeclare{inproceedings}{Naiakshinaetal2019a}
+\bibitem{Naiakshinaetal2019a}
+\bibinfo{author}{A.~\surnamestart Naiakshina\surnameend},
+  \bibinfo{author}{A.~\surnamestart Danilova\surnameend},
+  \bibinfo{author}{E.~\surnamestart Gerlitz\surnameend},
+  \bibinfo{author}{E.~\surnamestart von Zezschwitz\surnameend} \&
+  \bibinfo{author}{M.~\surnamestart Smith\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{" If you want, I can store the encrypted password": A
+  Password-Storage Field Study with Freelance Developers}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings of the 2019 CHI Conference
+  on Human Factors in Computing Systems}}, \bibinfo{organization}{ACM}, pp.
+  \bibinfo{pages}{140:1--140:12},
+  \doi{https://doi.org/10.1145/3290605.3300370}.
+
+\bibitemdeclare{article}{Naiakshinaetal2018a}
+\bibitem{Naiakshinaetal2018a}
+\bibinfo{author}{A.~\surnamestart Naiakshina\surnameend},
+  \bibinfo{author}{A.~\surnamestart Danilova\surnameend},
+  \bibinfo{author}{C.~\surnamestart Tiefenau\surnameend} \&
+  \bibinfo{author}{M.~\surnamestart Smith\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Deception Task Design in Developer Password Studies:
+  Exploring a Student Sample}}}.
+\newblock {\sl \bibinfo{journal}{In Fourteenth Symposium on Usable Privacy and
+  Security (SOUPS 2018). USENIX Association}}, pp. \bibinfo{pages}{297--313}.
+
+\bibitemdeclare{misc}{NIST2014a}
+\bibitem{NIST2014a}
+\bibinfo{author}{\surnamestart {National Institute for Standards and
+  Technology}\surnameend} (\bibinfo{year}{2014}):
+  \emph{\bibinfo{title}{{CVE-2014-0160 Detail}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://nvd.nist.gov/vuln/detail/CVE-2014-0160}}.
+
+\bibitemdeclare{misc}{NIST2014b}
+\bibitem{NIST2014b}
+\bibinfo{author}{\surnamestart {National Institute for Standards and
+  Technology}\surnameend} (\bibinfo{year}{2014}):
+  \emph{\bibinfo{title}{{CVE-2014-3566 Detail}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://nvd.nist.gov/vuln/detail/CVE-2014-3566}}.
+
+\bibitemdeclare{misc}{Newman2019k}
+\bibitem{Newman2019k}
+\bibinfo{author}{L.H. \surnamestart Newman\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Hackers Made an App That Kills to Prove a Point}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.wired.com/story/medtronic-insulin-pump-hack-app}}.
+
+\bibitemdeclare{inproceedings}{OConnoretal2019a}
+\bibitem{OConnoretal2019a}
+\bibinfo{author}{T.J. \surnamestart O'Connor\surnameend},
+  \bibinfo{author}{W.~\surnamestart Enck\surnameend} \&
+  \bibinfo{author}{B.~\surnamestart Reaves\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Blinded and Confused: Uncovering Systemic Flaws in
+  Device Telemetry for Smart-Home Internet of Things}}}.
+\newblock In: {\sl \bibinfo{booktitle}{Proceedings of the 12th Conference on
+  Security and Privacy in Wireless and Mobile Networks}}, pp.
+  \bibinfo{pages}{140--150}.
+
+\bibitemdeclare{misc}{OWASP2013a}
+\bibitem{OWASP2013a}
+\bibinfo{author}{\surnamestart {Open Web Application Security Project
+  (OWASP)}\surnameend} (\bibinfo{year}{2013}): \emph{\bibinfo{title}{{The Ten
+  Most Critical Web Application Security Risks}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.owasp.org/images/f/f8/OWASP_Top_10_-_2013.pdf}}.
+
+\bibitemdeclare{misc}{OWASP2017a}
+\bibitem{OWASP2017a}
+\bibinfo{author}{\surnamestart {Open Web Application Security Project
+  (OWASP)}\surnameend} (\bibinfo{year}{2017}): \emph{\bibinfo{title}{{The Ten
+  Most Critical Web Application Security Risks}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project\#tab=Main}}.
+
+\bibitemdeclare{misc}{OWASP2019b}
+\bibitem{OWASP2019b}
+\bibinfo{author}{\surnamestart {Open Web Application Security Project
+  (OWASP)}\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{DefectDojo: OpenSource Application Security
+  Management}}}.
+\newblock \bibinfo{howpublished}{\url{https://www.defectdojo.org}}.
+
+\bibitemdeclare{article}{Paulson1999}
+\bibitem{Paulson1999}
+\bibinfo{author}{L.C. \surnamestart Paulson\surnameend} (\bibinfo{year}{1999}):
+  \emph{\bibinfo{title}{{Inductive Analysis of the Internet Protocol TLS}}}.
+\newblock {\sl \bibinfo{journal}{ACM Trans. Information and System Security}}
+  \bibinfo{volume}{2}, pp. \bibinfo{pages}{332--351}.
+
+\bibitemdeclare{misc}{PCI2018b}
+\bibitem{PCI2018b}
+\bibinfo{author}{\surnamestart {Payment Card Industry Security Standards
+  Council (PCI SSC)}\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Requirements and Security Assessment Procedures
+  Version 3.2.1}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-2-1.pdf}}.
+
+\bibitemdeclare{misc}{RoyalSociety2016a}
+\bibitem{RoyalSociety2016a}
+\bibinfo{author}{\surnamestart {Royal Society}\surnameend}
+  (\bibinfo{year}{2016}): \emph{\bibinfo{title}{{Progress and research in
+  cybersecurity: Supporting a resilient and trustworthy system for the UK}}}.
+\newblock \bibinfo{howpublished}{\url{http://royalsociety.org/cybersecurity}}.
+
+\bibitemdeclare{article}{Sadowskietal2018a}
+\bibitem{Sadowskietal2018a}
+\bibinfo{author}{C.~\surnamestart Sadowski\surnameend},
+  \bibinfo{author}{E.~\surnamestart Aftandilian\surnameend},
+  \bibinfo{author}{A.~\surnamestart Eagle\surnameend},
+  \bibinfo{author}{L.~\surnamestart Miller-Cushion\surnameend} \&
+  \bibinfo{author}{C.~\surnamestart Jaspan\surnameend} (\bibinfo{year}{2018}):
+  \emph{\bibinfo{title}{{Lessons from building static analysis tools at
+  Google}}}.
+\newblock {\sl \bibinfo{journal}{Commun. ACM}}
+  \bibinfo{volume}{61}(\bibinfo{number}{4}), pp. \bibinfo{pages}{58--66}.
+
+\bibitemdeclare{misc}{Salz2017a}
+\bibitem{Salz2017a}
+\bibinfo{author}{R.~\surnamestart Salz\surnameend} (\bibinfo{year}{2017}):
+  \emph{\bibinfo{title}{{Software engineering and OpenSSL is not an oxymoron
+  (presentation at Real World Cryptography 2017)}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://rwc.iacr.org/2017/Slides/rich.saltz.pdf}}.
+
+\bibitemdeclare{misc}{Seggelmannetal2012a}
+\bibitem{Seggelmannetal2012a}
+\bibinfo{author}{R.~\surnamestart Seggelmann\surnameend},
+  \bibinfo{author}{M.~\surnamestart Tuexen\surnameend} \&
+  \bibinfo{author}{M.~\surnamestart Williams\surnameend}
+  (\bibinfo{year}{2012}): \emph{\bibinfo{title}{{Transport Layer Security (TLS)
+  and Datagram Transport Layer Security (DTLS) Heartbeat Extension}}}.
+\newblock \bibinfo{howpublished}{\url{https://tools.ietf.org/html/rfc6520}}.
+
+\bibitemdeclare{misc}{Statt2014a}
+\bibitem{Statt2014a}
+\bibinfo{author}{N.~\surnamestart Statt\surnameend} (\bibinfo{year}{2014}):
+  \emph{\bibinfo{title}{{Zuckerberg: 'Move fast and break things' isn't how
+  Facebook operates anymore}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.cnet.com/news/zuckerberg-move-fast-and-break-things-isnt-how-we-operate-anymore/}}.
+
+\bibitemdeclare{misc}{Steinberg2014a}
+\bibitem{Steinberg2014a}
+\bibinfo{author}{J.~\surnamestart Steinberg\surnameend} (\bibinfo{year}{2014}):
+  \emph{\bibinfo{title}{{Massive Internet Security Vulnerability -- Here's What
+  You Need To Do}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.forbes.com/sites/josephsteinberg/2014/04/10/massive-internet-security-vulnerability-you-are-at-risk-what-you-need-to-do/\#390fc7c33fdf}}.
+
+\bibitemdeclare{misc}{TahaeiVaniea2019a}
+\bibitem{TahaeiVaniea2019a}
+\bibinfo{author}{M.~\surnamestart Tahaei\surnameend} \&
+  \bibinfo{author}{K.~\surnamestart Vaniea\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{A Survey on Developer-Centred Security}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://groups.inf.ed.ac.uk/tulips/papers/A_Survey_on_Developer_Centred_Security.pdf}}.
+
+\bibitemdeclare{article}{TaylorSakharkar2019a}
+\bibitem{TaylorSakharkar2019a}
+\bibinfo{author}{C.~\surnamestart Taylor\surnameend} \&
+  \bibinfo{author}{S.~\surnamestart Sakharkar\surnameend}
+  (\bibinfo{year}{2019}): \emph{\bibinfo{title}{{');DROP TABLE textbooks;--: An
+  Argument for SQL Injection Coverage in Database Textbooks}}}.
+\newblock {\sl \bibinfo{journal}{In Proceedings of the 50th ACM Technical
+  Symposium on Computer Science Education (SIGCSE '19). ACM}}, pp.
+  \bibinfo{pages}{191--197}.
+
+\bibitemdeclare{misc}{Guardian2017g}
+\bibitem{Guardian2017g}
+\bibinfo{author}{\surnamestart {The Guardian}\surnameend}
+  (\bibinfo{year}{2017}): \emph{\bibinfo{title}{{Hacking risk leads to recall
+  of 500,000 pacemakers due to patient death fears}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.theguardian.com/technology/2017/aug/31/hacking-risk-recall-pacemakers-patient-death-fears-fda-firmware-update}}.
+
+\bibitemdeclare{misc}{Guardian2019i}
+\bibitem{Guardian2019i}
+\bibinfo{author}{\surnamestart {The Guardian}\surnameend}
+  (\bibinfo{year}{2019}): \emph{\bibinfo{title}{{BA faces \pounds183m fine over
+  passenger data breach}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.theguardian.com/business/2019/jul/08/ba-fine-customer-data-breach-british-airways}}.
+
+\bibitemdeclare{misc}{Thomas2019a}
+\bibitem{Thomas2019a}
+\bibinfo{author}{G.~\surnamestart Thomas\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{A proactive approach to more secure code}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://msrc-blog.microsoft.com/2019/07/16/a-proactive-approach-to-more-secure-code/}}.
+
+\bibitemdeclare{misc}{GAO2018a}
+\bibitem{GAO2018a}
+\bibinfo{author}{\surnamestart {United States Government Accountability
+  Office}\surnameend} (\bibinfo{year}{2018}): \emph{\bibinfo{title}{{Actions
+  Taken by Equifax and Federal Agencies in Response to the 2017 Breach}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.gao.gov/assets/700/694158.pdf}}.
+
+\bibitemdeclare{misc}{Vogels2019a}
+\bibitem{Vogels2019a}
+\bibinfo{author}{W.~\surnamestart Vogels\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{Proving security at scale with automated reasoning}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.allthingsdistributed.com/2019/05/proving-security-at-scale-with-automated-reasoning.html}}.
+
+\bibitemdeclare{article}{Wayrynenetal2004}
+\bibitem{Wayrynenetal2004}
+\bibinfo{author}{J.~\surnamestart W\"ayrynen\surnameend},
+  \bibinfo{author}{M.~\surnamestart Bod\'en\surnameend} \&
+  \bibinfo{author}{G.~\surnamestart Bostr\"om\surnameend}
+  (\bibinfo{year}{2004}): \emph{\bibinfo{title}{{Security Engineering and
+  eXtreme Programming: an Impossible Marriage?}}}
+\newblock {\sl \bibinfo{journal}{Extreme programming and agile methods-XP/Agile
+  Universe}}, pp. \bibinfo{pages}{117--128}.
+
+\bibitemdeclare{misc}{Zhangetal2019c}
+\bibitem{Zhangetal2019c}
+\bibinfo{author}{M.~\surnamestart Zhang\surnameend},
+  \bibinfo{author}{W.~\surnamestart Meng\surnameend},
+  \bibinfo{author}{S.~\surnamestart Lee\surnameend},
+  \bibinfo{author}{B.~\surnamestart Lee\surnameend} \&
+  \bibinfo{author}{X.~\surnamestart Xing\surnameend} (\bibinfo{year}{2019}):
+  \emph{\bibinfo{title}{{All Your Clicks Belong to Me: Investigating Click
+  Interception on the Web}}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.microsoft.com/en-us/research/uploads/prod/2019/03/zhang-observer.pdf}}.
+
+\end{thebibliography}
