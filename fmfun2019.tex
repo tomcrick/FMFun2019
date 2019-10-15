@@ -17,43 +17,64 @@
 \def\pcite#1{[#1]}
 \def\Res{\mathop{\rm Res}\nolimits}
 \def\r#1#2{``#1''$\rightarrow$``#2''}
-\documentclass{eptcs}
-\bibliographystyle{eptcs}
+
+%\documentclass{eptcs}
+\documentclass{llncs}
+%\bibliographystyle{eptcs}
+\usepackage[hyphens]{url}
+%\documentclass{eptcs}
+%\bibliographystyle{eptcs}
 %\usepackage[hyphens]{url}
 %\usepackage{enumitem}
-\usepackage{pdfpages}
+%\usepackage{pdfpages}
 \usepackage{verbatim}
 \usepackage{combelow}
 \usepackage[show]{ed}
 \usepackage{graphicx}
-\newtheorem{proposition}{Proposition}
-\newtheorem{theorem}{Theorem}
-\newtheorem{lemma}{Lemma}
-\newtheorem{corollary}{Corollary}
-\newtheorem{definition}{Definition}
-\newtheorem{notation}{Notation}
-\newtheorem{example}{Example}
-\newtheorem{problem}{Problem}
-\def\decision#1{\par{\bf #1}}
-\pagestyle{empty}
-%\usepackage{newunicodechar}
-\begin{document}
-\author{J.H. Davenport\\Department of Computer Science\\University of Bath, Bath BA2 7AY, U.K.\\\tt masjhd@bath.ac.uk}
-\title{Formal Methods and CyberSecurity}
-\date{21 June 2019}\def\authorrunning{J.H. Davenport}
-\def\titlerunning{Formal Methods and CyberSecurity}
-\maketitle
-\begin{abstract}
-Formal methods have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance. Tens of millions of people trust their lives every day to such systems, based on formal proofs rather than ``we haven't found a bug'' (yet!). Why is ``we haven't found a bug'' an acceptable basis for systems trusted with hundreds of millions of people's personal data?
 
-This paper looks at some of the issues in CyberSecurity, and the extent to which formal methods, ranging from ``fully verified'' to better tool support, could help. Alas \cite{RoyalSociety2016a} only recommended formal methods in the limited context of ``safety critical applications'': we suggest this is too limited.
+% \newtheorem{proposition}{Proposition}
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{lemma}{Lemma}
+% \newtheorem{corollary}{Corollary}
+% \newtheorem{definition}{Definition}
+% \newtheorem{notation}{Notation}
+% \newtheorem{example}{Example}
+% \newtheorem{problem}{Problem}
+\def\decision#1{\par{\bf #1}}
+%\pagestyle{empty}
+
+
+\begin{document}
+
+\title{Formal Methods and Cybersecurity Education}
+
+\author{James H. Davenport\inst{1} \and Tom Crick\inst{2}}
+
+
+\institute{Department of Computer Science, University of Bath, UK\\\email{jhd@cs.bath.ac.uk}
+\and 
+Department of Computer Science, Swansea University, UK\\\email{thomas.crick@swansea.ac.uk}}
+\maketitle
+
+\begin{abstract}
+Formal methods have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance. Tens of millions of people trust their lives every day to such systems, based on formal proofs rather than ``we haven't found a bug'' (yet!); but why is ``we haven't found a bug'' an acceptable basis for systems trusted with hundreds of millions of people's personal data?
+
+This paper looks at some of these issues in cybersecurity, primarily focused on the UK as a case study, and the extent to which formal methods, ranging from ``fully verified'' to better tool support, could help. More importantly, recent policy reports and curricula initiatives appear to recommended formal methods in the limited context of ``safety critical applications''; we suggest this is too limited in scope and ambition.
 \end{abstract}
-% cybersecurity; input sanitisation; taint analysis
+
+\begin{keywords}
+Formal methods, cybersecurity, undergraduate education, curricula, UK
+\end{keywords}
 
 \section{Introduction}
-CyberSecurity\footnote{The precise definition of CyberSecurity is debatable: we can take is as failures of security, generally defined as ``preserving the CIA --- Confidentiality, Integrity and Availability'' of digital information, where computer system played a critical part in the failure.} failures abound, and the number of people that can be affected by even a single failure is amazing --- 148 million for Equifax \cite{Bloomberg2018b} and probably more for the Starwood\footnote{Generally called ``Marriott'', but in fact due to the Starwood chain before Marriott took it over.} breach: \cite{BBC2018o} states 500 million, but \cite{Irwin2019b} ``downgrades'' this to 383 million.  The financial costs can be substantial: bankruptcy in the case of American Medical Collection Agency \cite{Ford2019b} and a provisional \pounds183M fine for British Airways \cite{Guardian2019i}.  These problems have attratced attention at the highest scientific levels \cite{RoyalSociety2016a}.
+Formal methods, when they have been thought of at all, have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance in what is, alas, an unsung area of sotware development.  Tens of millions of people trust their lives every day to such systems, but nearly all are unaware of these systems, and the extent to which they are enormous successes. Even people ``who ought to know better'' don't. One of the authors quoted the Ligne 14 perfromance figures (software shipped in 1999 and no bugs reported) to a major figure in the commercial software industry, to be told that he was lying, as this was utterly impossible.
+
+Formal methods \emph{ought} to be much more widely used in the cybersecurity industry.  This is much more visible (because it has many conspicuous failures) than the largely invisible safety-critical industry. However, formal methods are not currently widely adopted here, and hence there is tremendous scope for growth and aoption of formal methods.
+
+\section{Cybersecurity}
+Cybersecurity\footnote{The precise definition of cybersecurity is debatable: we can take is as failures of security, generally defined as ``preserving the CIA --- Confidentiality, Integrity and Availability'' of digital information, where computer system played a critical part in the failure.} failures abound, and the number of people that can be affected by even a single failure is amazing --- 148 million for Equifax \cite{Bloomberg2018b} and probably more for the Starwood\footnote{Generally called ``Marriott'', but in fact due to the Starwood chain before Marriott took it over.} breach: \cite{BBC2018o} states 500 million, but \cite{Irwin2019b} ``downgrades'' this to 383 million.  The financial costs can be substantial: bankruptcy in the case of American Medical Collection Agency \cite{Ford2019b} and a provisional \pounds183M fine for British Airways \cite{Guardian2019i}.  These problems have attracted attention at the highest scientific levels \cite{RoyalSociety2016a}.
 \par
-There are many reasons for CyberSecurity failures, and even a given failure may have multiple causes. For example, the U.S.~Government investigation \cite{GAO2018a} into Equifax states ``Equifax's investigation of the breach identified four major factors
+There are many reasons for cybersecurity failures, and even a given failure may have multiple causes. For example, the U.S.~Government investigation \cite{GAO2018a} into Equifax states ``Equifax's investigation of the breach identified four major factors
 including identification, detection, segmenting of access to databases, and data
 governance that allowed the attacker \dots''.  However, none of these would have been triggered had it not been for the original bug in the Apache code \cite{Lenart2017a}, which was of the well-known (Number 1 Application Security Risk in \cite{OWASP2017a})  family of ``Injection'' (or ``Remote Code Execution'') attacks, and which would probably have been detected by an automatic taint analysis tool such as \cite{LivshitsLam2005}.
 \par
@@ -80,14 +101,15 @@ to guarantee that a system is free of programming
 errors. \cite[describing seL4: a verified operating system]{Kleinetal2009a}
 \end{quote}
 Such a verified operating system has been used in medical devices, but probably not sufficiently widely, as 500,000 already-fitted pacemakers have had to be upgraded through security weaknesses \cite{Guardian2017g}, and insulin pumps are also vulnerable \cite{Newman2019k}. See \cite{Heiser2019a} for a recent update on seL4.  However, most of us do not have the opportunity to start from scratch, and have to live on top of imperfect, unverified systems, interoperating with other systems via large, generally unverified, protocols, such as TLS. 
+\iffalse
 \section{TLS and its issues}
 The TLS protocol (and its predecessor SSL) are the basis of most Internet security, underpinning, for example, \verb+https+. They also have displayed some of the most prominent problems.
 \begin{description}
 \item[Correctness]Paulson \cite{Paulson1999} ``Proved TLS Secure'', according to folklore. More precisely, the abstract states ``All the
-obvious security goals can be proved'', but the paper itself is more more nuanced.
+obvious security goals can be proved'', but the paper itself is more nuanced.
 \begin{quote}
 Is TLS really secure? My proofs suggest that it is, but one should draw no conclusions without reading the rest of this paper, which describes how the protocol
-was modelled and what properties were proved. I have analyzed a much simplified
+was modelled and what properties were proved. I have analysed a much simplified
 form of TLS; I assume hashing and encryption to be secure.
 \end{quote}
 There has been much work on TLS security since, e.g. \cite{Heetal2005,Krawczyketal2013a}. In particular, the latter used `real' encryption, the RSA PKCS \#1 v1.5, recommended, rather than `ideal' encryption. Again, these all focus on the idealised protocol, rather than implementations.
@@ -107,6 +129,7 @@ Paulson \cite{Paulson1999} states, not unreasonably, ``I assume hashing and encr
 \end{enumerate}
 \end{description}
 Hence we have a proof of correctness of a (simplified, but in fact the simplification is irrelevant here) version of an abstract protocol, and major bugs in implementations. One is a ``coding'' bug, while the other is a combination of a protocol bug and a cryptography bug.  Though not directly relevant to this paper, \cite{Salz2017a} demonstrates that Heartbleed (and Poodle) had a major positive effect on the OpenSSL project.
+\fi
 \section{Agile versus Secure}
 ``Agile Development'' \cite{Becketal2001} is a major theme in software development. 
 Mark Zuckerberg can be said to have taken this theme to the extreme in 2009.
@@ -146,7 +169,7 @@ functional requirements or even easy-to-measure activities
 such as closing bug tracking tickets.''
 \end{description}
 \par\noindent
-It would be tempting to conclude that ``Agile'' and ``Secure'' are, or at least are close to being, mutually contradictory. But there has been some analysis of the same apparent contradiction in the safety-critical industry \cite{Chapman2016a}.  Other than ``Embedded Systems''\footnote{Actually, Embedded Systems are a comparatively neglected, but important, CyberSecurity area. See, for example, \cite{OConnoretal2019a} for a description of a pervasive design fault in the ``home security'' market.} \cite[\S 3.6]{Chapman2016a}, this analysis of the problems is fairly close to the practitioner view in \cite{Lane2018a}, and we could reasonably ask what lessons could be carried across. 
+It would be tempting to conclude that ``Agile'' and ``Secure'' are, or at least are close to being, mutually contradictory. But there has been some analysis of the same apparent contradiction in the safety-critical industry \cite{Chapman2016a}.  Other than ``Embedded Systems''\footnote{Actually, Embedded Systems are a comparatively neglected, but important, cybersecurity area. See, for example, \cite{OConnoretal2019a} for a description of a pervasive design fault in the ``home security'' market.} \cite[\S 3.6]{Chapman2016a}, this analysis of the problems is fairly close to the practitioner view in \cite{Lane2018a}, and we could reasonably ask what lessons could be carried across. 
 \section{The Need for Tools}
 \def\foo{\cite[\S 4.1]{Chapman2016a}}
 \def\bar{\cite[\S 6]{Chapman2016a}}
@@ -163,7 +186,7 @@ Facebook grew, security (and ``product quality'' in general: it is not clear whe
 \par\noindent
 One might think his views were converging with the views of  \cite{Chapman2016a}. However, the Heartbleed story should remind us that the fact that a modification ``has no new security considerations''  \emph{as designed}  \cite{Seggelmannetal2012a} doesn't mean that an implementation of that idea has no new security considerations. Hence the call in \foo{} for strong static verification tools. Such tools are generally seen as expensive and slowing down the development process, but \cite{BrainSchanda2012a} shows that they need not be. In particular, they show that, for a real application (890,000 physical lines of Ada code), the cost of incremental verification can be reduced from ``nightly'' to ``coffee'', and hence can reasonably form part of a continuous integration toolchain, as is done at the company studied in \cite{BrainSchanda2012a}. Readers might  comment that their own applications are not in Ada, but \cite[\S5.6]{ChapmanMoy2018a} discusses mixed-language programming, especially with C.  A similar point is made in \cite{Distefanoetal2019a}, describing the Infer tool running on Java/Objective C/C++, where moving from overnight reporting to near real-time reporting moved the fix rate from 0\% to 70\%.
 \par
-That these techniques are reaching the mainstream of CyberSecurity can be seen from Amazon Web Services adoption of them  \cite{Vogels2019a}, Google \cite{Sadowskietal2018a}, Facebook \cite{Distefanoetal2019a}, and the recent DefectDojo release by OWASP \cite{OWASP2019b}.
+That these techniques are reaching the mainstream of cybersecurity can be seen from Amazon Web Services adoption of them  \cite{Vogels2019a}, Google \cite{Sadowskietal2018a}, Facebook \cite{Distefanoetal2019a}, and the recent DefectDojo release by OWASP \cite{OWASP2019b}.
 \section{The Scope of Tools and Formal Methods}
 There is a substantial range of tools, and degrees of formality, and \bar{} is probably correct in saying ``We doubt there’s a one-size-fits-all approach''. At one extreme, there are the humble, but still surprisingly effective, \verb+lint+ and its equivalents, looking, essentially, for dangerous or dubious, though legal, syntax. 
 \subsection{Ada and SPARK}
@@ -202,7 +225,7 @@ An alternative solution is used by Google,who are introducing a form of taint an
 \item the  server
 \end{itemize}
 \section{Education}
-\cite[Requirement 6.5]{PCI2018b} called for education of developers. Education of mainstream programmers, as opposed to CyberSecurity specialists, in CyberSecurity has been neglected until recently, and this neglect has been lamented as far as the Harvard Business Review \cite{Cable2019a}. Developments in professional accreditation are changing this \cite{Cricketal2019a}.  However, there are limitations, even beyond  \emph{errare humanum est}, in relying on education.
+\cite[Requirement 6.5]{PCI2018b} called for education of developers. Education of mainstream programmers, as opposed to cybersecurity specialists, in cybersecurity has been neglected until recently, and this neglect has been lamented as far as the Harvard Business Review \cite{Cable2019a}. Developments in professional accreditation are changing this \cite{Cricketal2019a}.  However, there are limitations, even beyond  \emph{errare humanum est}, in relying on education.
 \begin{enumerate}
 % \yen : yen mark (taken from ascmac.sty for jlatex)
 \def\yen{{\setbox0=\hbox{Y}Y\kern-.97\wd0\vbox{\hrule height.1ex
@@ -215,6 +238,7 @@ solved the issue!!! I have no idea why it was enabled by default''.
 As we have noted, \cite{PCI2018b} both mandates education and does not rely solely on it.
 \par
 However, as the safety-critical community laments (at least in the U.K. and U.S.A.: cultures do differ here), there is very little training in formal methods for most undergraduates. 
+
 \section{Conclusions}
 As the media never tire of saying, there are far too many security breaches, and, though they have multiple causes, \cite{McGraw2006} claims that about 50\% of security breaches are caused by coding errors. There appears to be a culture of accepting these, with the U.S.~Government investigation \cite{GAO2018a} into Equifax blaming many factors but not the actual bug, and \cite{PCI2018b}  taking a ``necessary but not sufficient'' approach to education in secure coding.
 \begin{description}
@@ -224,7 +248,7 @@ More training in formal methods would be welcomed, at least in those cultures wh
 \item[Customers/Managers]need to be much more upfront about security requirements \cite{Naiakshinaetal2018a,Naiakshinaetal2019a}, and enforce (e.g. by requiring tool support during any CI/CD process, such as \cite{BrainSchanda2012a} describe) at least ``middle ground'' requirements. In the case of outsourced development, explicit penalty clauses for failing penetration tests should concentrate the developers' minds.
 \item[C/C++ people]These programmers should be much more aware of techniques for secure coding, such as those described in  \cite[Appendix F]{CPNI2019a}, and the various tools for static analysis.
 \item[Java people]In view of the significance of injection attacks (Number 1 in \cite{OWASP2017a}), programmers should be aware of taint analysis, as in \cite{LivshitsLam2005}.
-\item[JavaScript people]There are some techniques, such as \cite{Maffeisetal2009},  for protecting JavaScript applications, but they are not deployable in the the typical JavaScript ``dynamic loading web page'' environment. Furthermore this environment is basically antithetical to security, as British Airways is learning to the cost of \pounds183M \cite{Guardian2019i}.
+\item[JavaScript people]There are some techniques, such as \cite{Maffeisetal2009},  for protecting JavaScript applications, but they are not deployable in the typical JavaScript ``dynamic loading web page'' environment. Furthermore this environment is basically antithetical to security, as British Airways is learning to the cost of \pounds183M \cite{Guardian2019i}.
 \item[1)]Hence the first real challenge of JavaScript lies with the tool makers: there are, as far as the author knows, no JavaScript verifiers in existence, and no page-bundler that checks for version drift, or does incremental verification (which might be comparatively cheap, as in \cite{BrainSchanda2012a}).
 \item[2)]An alternative approach might be to change the JavaScript model. This is advocated in \cite{Zhangetal2019c}, based on their analysis of what third-party scripts do in the wild.  This is not a completely radical idea: Google is testing its \verb+TrustedTypes+ feature \cite{Kotowicz2019a}, with the motivation ``The DOM API is insecure by default and requires special treatment to prevent XSS''.
 \item[Empirical Research]There is not much analysis of the efficacy of various techniques in security programming. \cite{AustinWilliams2011a} compares various techniques, and states the following.
@@ -234,41 +258,48 @@ Based on our case study [of two large programs], the most efficient vulnerabilit
 This assumes that ``false positives'' are acceptable, a debatable point of view.  It would be good to have more such research.
 \item[Tool developers]There is a lack of tools (or at least a lack of awareness of tools) that can be neatly integrated into a security programming toolchain the way such tools are integrated in safety-critical toolchains \cite{BrainSchanda2012a}.
 \end{description}
-\par\noindent{\bf Acknowledgements:} The author is grateful to the Fulbright Programme for a CyberSecurity Scholarship, and to many correspondents and discussions, notably with Tom Crick, Alastair Irons and Tom Prickett; also Tim French. The FROM2019 referees made useful comments.
-\bibliography{../../../jhd}
+
+\section*{Acknowledgements}
+
+This paper is adapted from a talk given at the 2019 Working Formal Methods Symposium (FROM2019) in Timisoara, Romania. The first author is grateful to the Fulbright Programme for a Cybersecurity Scholarship at at New York University in 2017, and to many correspondents and discussions, notably Alastair Irons, Tom Prickett and Tim French.
+
+% \bibliography{../../../jhd}
+% \end{document}
+% \cite{CERT2017a} % C++
+% \cite{CERT2017b}% C
+% \begin{description}
+% \item[Q]
+% \item[A]
+% \item[Q]
+% \item[A]
+%\end{description}
+
+
+% bib
+\bibliographystyle{splncs}
+\bibliography{jhd}
+
 \end{document}
-\cite{CERT2017a} % C++
-\cite{CERT2017b}% C
-\begin{description}
-\item[Q]
-\item[A]
-\item[Q]
-\item[A]
-\end{description}
 
-
-\end{document}
-\bibliography{../../../../jhd}
-\section{}
-\begin{description}
-\item
-\end{description}
-\begin{itemize}
-\item
-\end{itemize}
-\begin{example}
-\end{example}
-\begin{definition}
-\end{definition}
-\begin{theorem}
-\end{theorem}
-\begin{enumerate}
-\end{enumerate}
-\begin{description}
-\item[Theme 1]
-\item[Theme 2]
-\item[Theme 3]
-\item[Theme 4]
-\item[Theme 5]
-\end{description}
-
+% \section{}
+% \begin{description}
+% \item
+% \end{description}
+% \begin{itemize}
+% \item
+% \end{itemize}
+% \begin{example}
+% \end{example}
+% \begin{definition}
+% \end{definition}
+% \begin{theorem}
+% \end{theorem}
+% \begin{enumerate}
+% \end{enumerate}
+% \begin{description}
+% \item[Theme 1]
+% \item[Theme 2]
+% \item[Theme 3]
+% \item[Theme 4]
+% \item[Theme 5]
+% \end{description}
