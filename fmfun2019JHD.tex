@@ -17,16 +17,21 @@
 \def\pcite#1{[#1]}
 \def\Res{\mathop{\rm Res}\nolimits}
 \def\r#1#2{``#1''$\rightarrow$``#2''}
+
 %\documentclass{eptcs}
 \documentclass{llncs}
 %\bibliographystyle{eptcs}
 \usepackage[hyphens]{url}
+%\documentclass{eptcs}
+%\bibliographystyle{eptcs}
+%\usepackage[hyphens]{url}
 %\usepackage{enumitem}
-\usepackage{pdfpages}
+%\usepackage{pdfpages}
 \usepackage{verbatim}
 \usepackage{combelow}
 \usepackage[show]{ed}
 \usepackage{graphicx}
+
 % \newtheorem{proposition}{Proposition}
 % \newtheorem{theorem}{Theorem}
 % \newtheorem{lemma}{Lemma}
@@ -60,14 +65,6 @@ This paper looks at some of these issues in cybersecurity, primarily focused on 
 \begin{keywords}
 Formal methods, cybersecurity, undergraduate education, curricula, UK
 \end{keywords}
-
-% JHD keywords: cybersecurity; input sanitisation; taint analysis
-% TC keywords from Easychair:
-% Formal methods
-% Cybersecurity
-% Undergraduate education
-% Curricula
-% UK
 
 \section{Introduction}
 Formal methods, when they have been thought of at all, have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance in what is, alas, an unsung area of sotware development.  Tens of millions of people trust their lives every day to such systems, but nearly all are unaware of these systems, and the extent to which they are enormous successes. Even people ``who ought to know better'' don't. One of the authors quoted the Ligne 14 perfromance figures (software shipped in 1999 and no bugs reported) to a major figure in the commercial software industry, to be told that he was lying, as this was utterly impossible.
@@ -241,7 +238,10 @@ solved the issue!!! I have no idea why it was enabled by default''.
 As we have noted, \cite{PCI2018b} both mandates education and does not rely solely on it.
 \par
 However, as the safety-critical community laments (at least in the U.K. and U.S.A.: cultures do differ here), there is very little training in formal methods for most undergraduates. 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99fc8191bb3ef0c6d4a7a8da03c8cb646f0ca02b
 \section{Conclusions}
 As the media never tire of saying, there are far too many security breaches, and, though they have multiple causes, \cite{McGraw2006} claims that about 50\% of security breaches are caused by coding errors. There appears to be a culture of accepting these, with the U.S.~Government investigation \cite{GAO2018a} into Equifax blaming many factors but not the actual bug, and \cite{PCI2018b}  taking a ``necessary but not sufficient'' approach to education in secure coding.
 \begin{description}
@@ -262,6 +262,7 @@ This assumes that ``false positives'' are acceptable, a debatable point of view.
 \item[Tool developers]There is a lack of tools (or at least a lack of awareness of tools) that can be neatly integrated into a security programming toolchain the way such tools are integrated in safety-critical toolchains \cite{BrainSchanda2012a}.
 \end{description}
 \par\noindent{\bf Acknowledgements:} The author is grateful to the Fulbright Programme for a CyberSecurity Scholarship, and to many correspondents and discussions, notably with Tom Crick, Alastair Irons and Tom Prickett; also Tim French. The FROM2019 referees made useful comments.
+
 % \bibliography{../../../jhd}
 % \end{document}
 % \cite{CERT2017a} % C++
@@ -302,4 +303,3 @@ This assumes that ``false positives'' are acceptable, a debatable point of view.
 % \item[Theme 4]
 % \item[Theme 5]
 % \end{description}
-
