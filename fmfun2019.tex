@@ -46,6 +46,7 @@
 
 \begin{document}
 
+%TC: new title to better reflect what this paper does?
 \title{Formal Methods and Cybersecurity Education}
 
 \author{James H. Davenport\inst{1} \and Tom Crick\inst{2}}
@@ -56,21 +57,25 @@
 Department of Computer Science, Swansea University, UK\\\email{thomas.crick@swansea.ac.uk}}
 \maketitle
 
+%TC: update asbstract to reflect new title and new main thrust of paper?
 \begin{abstract}
 Formal methods have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance. Tens of millions of people trust their lives every day to such systems, based on formal proofs rather than ``we haven't found a bug'' (yet!); but why is ``we haven't found a bug'' an acceptable basis for systems trusted with hundreds of millions of people's personal data?
 
 This paper looks at some of these issues in cybersecurity, primarily focused on the UK as a case study, and the extent to which formal methods, ranging from ``fully verified'' to better tool support, could help. More importantly, recent policy reports and curricula initiatives appear to recommended formal methods in the limited context of ``safety critical applications''; we suggest this is too limited in scope and ambition.
 \end{abstract}
 
+% TC: update keywords to reflect new title and new main thrust of paper
 \begin{keywords}
 Formal methods, cybersecurity, undergraduate education, curricula, UK
 \end{keywords}
 
+% TC: need a signposting section at end of Intro; I'll sort just before submission
 \section{Introduction}
 Formal methods, when they have been thought of at all, have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance in what is, alas, an unsung area of sotware development.  Tens of millions of people trust their lives every day to such systems, but nearly all are unaware of these systems, and the extent to which they are enormous successes. Even people ``who ought to know better'' don't. One of the authors quoted the Ligne 14 perfromance figures (software shipped in 1999 and no bugs reported) to a major figure in the commercial software industry, to be told that he was lying, as this was utterly impossible.
 
 Formal methods \emph{ought} to be much more widely used in the cybersecurity industry.  This is much more visible (because it has many conspicuous failures) than the largely invisible safety-critical industry. However, formal methods are not currently widely adopted here, and hence there is tremendous scope for growth and aoption of formal methods.
 
+% TC: can we link in some material from other cyber paper here?
 \section{Cybersecurity}
 Cybersecurity\footnote{The precise definition of cybersecurity is debatable: we can take is as failures of security, generally defined as ``preserving the CIA --- Confidentiality, Integrity and Availability'' of digital information, where computer system played a critical part in the failure.} failures abound, and the number of people that can be affected by even a single failure is amazing --- 148 million for Equifax \cite{Bloomberg2018b} and probably more for the Starwood\footnote{Generally called ``Marriott'', but in fact due to the Starwood chain before Marriott took it over.} breach: \cite{BBC2018o} states 500 million, but \cite{Irwin2019b} ``downgrades'' this to 383 million.  The financial costs can be substantial: bankruptcy in the case of American Medical Collection Agency \cite{Ford2019b} and a provisional \pounds183M fine for British Airways \cite{Guardian2019i}.  These problems have attracted attention at the highest scientific levels \cite{RoyalSociety2016a}.
 \par
@@ -79,19 +84,22 @@ including identification, detection, segmenting of access to databases, and data
 governance that allowed the attacker \dots''.  However, none of these would have been triggered had it not been for the original bug in the Apache code \cite{Lenart2017a}, which was of the well-known (Number 1 Application Security Risk in \cite{OWASP2017a})  family of ``Injection'' (or ``Remote Code Execution'') attacks, and which would probably have been detected by an automatic taint analysis tool such as \cite{LivshitsLam2005}.
 \par
 Though attributing causes at scale is difficult, a well-known textbook \cite{McGraw2006} claims that about 50\% of security breaches are caused by coding errors. Hence it behoves security practitioners to look seriously at coding errors, while recognising that this is only one facet of the problem. This is taken up by the Payments Card Industry in \cite{PCI2018b}, essentially the only world-wide mandatory security standard, in two requirements.
+
 \begin{description}
-\item[6.5]Address common coding vulnerabilities in software-development processes as follows:
+\item Address common coding vulnerabilities in software-development processes as follows:
 \begin{itemize}
 \item Train developers at least annually in up-to-date secure coding techniques, including how to avoid common coding vulnerabilities;
 \item Develop applications based on secure coding guidelines.
 \end{itemize}
-\item[6.6]For public-facing web applications, address new threats and vulnerabilities on an ongoing basis and ensure these applications are protected against known attacks by either of the following methods:
+\item For public-facing web applications, address new threats and vulnerabilities on an ongoing basis and ensure these applications are protected against known attacks by either of the following methods:
 \begin{itemize}
 \item Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods, at least annually and after any changes;
 %Note: This assessment is not the same as the vulnerability scans performed for Requirement 11.2.
 \item Installing an automated technical solution that detects and prevents web-based attacks (for example, a web-application firewall) in front of public-facing web applications, to continually check all traffic.
 \end{itemize}
 \end{description}
+
+% TC: fix the numbering below in reference to description list above...
 It is noteworthy that, despite apparently insisting on secure coding in 6.5, they require the additional defences in 6.6, realising that \emph{errare humanum est}, and the 6.5-developed code may not actually be secure.  Is it possible (the author thinks so, but the experiment has yet to be performed) that adding formal methods to 6.5 would render 6.6 %(at least the first option)
  redundant?
 Full formal verification of a complete system should certainly suffice.
@@ -187,6 +195,7 @@ Facebook grew, security (and ``product quality'' in general: it is not clear whe
 One might think his views were converging with the views of  \cite{Chapman2016a}. However, the Heartbleed story should remind us that the fact that a modification ``has no new security considerations''  \emph{as designed}  \cite{Seggelmannetal2012a} doesn't mean that an implementation of that idea has no new security considerations. Hence the call in \foo{} for strong static verification tools. Such tools are generally seen as expensive and slowing down the development process, but \cite{BrainSchanda2012a} shows that they need not be. In particular, they show that, for a real application (890,000 physical lines of Ada code), the cost of incremental verification can be reduced from ``nightly'' to ``coffee'', and hence can reasonably form part of a continuous integration toolchain, as is done at the company studied in \cite{BrainSchanda2012a}. Readers might  comment that their own applications are not in Ada, but \cite[\S5.6]{ChapmanMoy2018a} discusses mixed-language programming, especially with C.  A similar point is made in \cite{Distefanoetal2019a}, describing the Infer tool running on Java/Objective C/C++, where moving from overnight reporting to near real-time reporting moved the fix rate from 0\% to 70\%.
 \par
 That these techniques are reaching the mainstream of cybersecurity can be seen from Amazon Web Services adoption of them  \cite{Vogels2019a}, Google \cite{Sadowskietal2018a}, Facebook \cite{Distefanoetal2019a}, and the recent DefectDojo release by OWASP \cite{OWASP2019b}.
+
 \section{The Scope of Tools and Formal Methods}
 There is a substantial range of tools, and degrees of formality, and \bar{} is probably correct in saying ``We doubt there’s a one-size-fits-all approach''. At one extreme, there are the humble, but still surprisingly effective, \verb+lint+ and its equivalents, looking, essentially, for dangerous or dubious, though legal, syntax. 
 \subsection{Ada and SPARK}
@@ -224,6 +233,9 @@ An alternative solution is used by Google,who are introducing a form of taint an
 \begin{itemize}
 \item the  server
 \end{itemize}
+
+% TC: missing any "concrete didactic proposals" -- what are we suggesting as solutions?
+% TC: ref more of our previous work, especially linking to CS ed reform in UK, IoC, etc
 \section{Education}
 \cite[Requirement 6.5]{PCI2018b} called for education of developers. Education of mainstream programmers, as opposed to cybersecurity specialists, in cybersecurity has been neglected until recently, and this neglect has been lamented as far as the Harvard Business Review \cite{Cable2019a}. Developments in professional accreditation are changing this \cite{Cricketal2019a}.  However, there are limitations, even beyond  \emph{errare humanum est}, in relying on education.
 \begin{enumerate}
@@ -239,6 +251,7 @@ As we have noted, \cite{PCI2018b} both mandates education and does not rely sole
 \par
 However, as the safety-critical community laments (at least in the U.K. and U.S.A.: cultures do differ here), there is very little training in formal methods for most undergraduates. 
 
+% TC: clarity of conclusions and of paper -- what have we said and where are we going next? Key issues to discuss at presentation?
 \section{Conclusions}
 As the media never tire of saying, there are far too many security breaches, and, though they have multiple causes, \cite{McGraw2006} claims that about 50\% of security breaches are caused by coding errors. There appears to be a culture of accepting these, with the U.S.~Government investigation \cite{GAO2018a} into Equifax blaming many factors but not the actual bug, and \cite{PCI2018b}  taking a ``necessary but not sufficient'' approach to education in secure coding.
 \begin{description}
@@ -274,7 +287,8 @@ This paper is adapted from a talk given at the 2019 Working Formal Methods Sympo
 % \item[A]
 %\end{description}
 
-
+% TC: check reference format throughout, especially bare "[x]" refs inline...
+% TC: do we need all citations?
 % bib
 \bibliographystyle{splncs}
 \bibliography{jhd}
