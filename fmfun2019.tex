@@ -109,10 +109,10 @@ Complete formal verification is the only known way
 to guarantee that a system is free of programming
 errors. \cite[describing seL4: a verified operating system]{Kleinetal2009a}
 \end{quote}
-Such a verified operating system has been used in medical devices, but probably not sufficiently widely, as 500,000 already-fitted pacemakers have had to be upgraded through security weaknesses \cite{Guardian2017g}, and insulin pumps are also vulnerable \cite{Newman2019k}. See \cite{Heiser2019a} for a recent update on seL4.  However, most of us do not have the opportunity to start from scratch, and have to live on top of imperfect, unverified systems, interoperating with other systems via large, generally unverified, protocols, such as TLS. 
+Such a verified operating system has been used in medical devices, but probably not sufficiently widely, as 500,000 already-fitted pacemakers have had to be upgraded through security weaknesses \cite{Guardian2017g}, and insulin pumps are also vulnerable \cite{Newman2019k}. See \cite{Heiser2019a} for a recent update on seL4.  However, most of us do not have the opportunity to start from scratch, and have to live on top of imperfect, unverified systems, interoperating with other systems via large, generally unverified, protocols, such as TLS \cite{Rescorla2018a}. 
 \iffalse
 \section{TLS and its issues}
-The TLS protocol (and its predecessor SSL) are the basis of most Internet security, underpinning, for example, \verb+https+. They also have displayed some of the most prominent problems.
+The TLS protocol \cite{Rescorla2018a} (and its predecessor SSL) are the basis of most Internet security, underpinning, for example, \verb+https+. They also have displayed some of the most prominent problems.
 \begin{description}
 \item[Correctness]Paulson \cite{Paulson1999} ``Proved TLS Secure'', according to folklore. More precisely, the abstract states ``All the
 obvious security goals can be proved'', but the paper itself is more nuanced.
