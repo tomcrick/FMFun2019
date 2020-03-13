@@ -71,9 +71,10 @@ Formal methods, cybersecurity, curricula
 
 % TC: need a signposting section at end of Intro; I'll sort just before submission
 \section{Introduction}
-Formal methods, when they have been thought of at all, have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance in what is, alas, an unsung area of sotware development.  Tens of millions of people trust their lives every day to such systems, but nearly all are unaware of these systems, and the extent to which they are enormous successes. Even people ``who ought to know better'' don't. One of the authors quoted the Paris M\'etro Ligne 14 performance figures (software shipped in 1999 and no bugs reported \cite{jacquel2011verifying}) to a major figure in the commercial software industry, to be told that he was lying, as this was utterly impossible.
+Formal methods, when they have been thought of at all, have been largely thought of in the context of safety-critical systems, where they have achieved major acceptance in what is, alas, an unsung area of software development.  Tens of millions of people trust their lives every day to such systems, but nearly all are unaware of these systems, and the extent to which they are enormous successes. Even people ``who ought to know better'' don't. One of the authors quoted the Paris M\'etro Ligne 14 performance figures (software shipped in 1999 and no bugs reported \cite{jacquel2011verifying}) to a major figure in the commercial software industry, to be told that he was lying, as this was utterly impossible.
 
 Formal methods \emph{ought} to be much more widely used in the cybersecurity industry.  This is much more visible (because it has many conspicuous failures) than the largely invisible safety-critical industry. However, formal methods are not currently widely adopted here, and hence there is tremendous scope for growth and adoption of formal methods.
+In addition, as the cybersecurity industry and its failurs are much more visible, emphasising the relevance of formal methods to the cybersecurity industry should encourage more interest at universities.
 
 % TC: can we link in some material from other cyber paper here?
 \section{Cybersecurity}
@@ -109,7 +110,7 @@ Complete formal verification is the only known way
 to guarantee that a system is free of programming
 errors. \cite[describing seL4: a verified operating system]{Kleinetal2009a}
 \end{quote}
-Such a verified operating system has been used in medical devices, but probably not sufficiently widely, as 500,000 already-fitted pacemakers have had to be upgraded through security weaknesses \cite{Guardian2017g}, and insulin pumps are also vulnerable \cite{Newman2019k}. See \cite{Heiser2019a} for a recent update on seL4.  However, most of us do not have the opportunity to start from scratch, and have to live on top of imperfect, unverified systems, interoperating with other systems via large, generally unverified, protocols, such as TLS \cite{Rescorla2018a}. 
+Such a verified operating system has been used in medical devices, but probably not sufficiently widely, as 500,000 already-fitted pacemakers have had to be upgraded through security weaknesses \cite{Guardian2017g}, and insulin pumps are also vulnerable \cite{Newman2019k}, as many others \cite{EvansLoftus2019a}. See \cite{Heiser2019a} for a recent update on seL4.  However, most of us do not have the opportunity to start from scratch, and have to live on top of imperfect, unverified systems, interoperating with other systems via large, generally unverified, or at least underverified, protocols, such as TLS \cite{Rescorla2018a}. 
 \iffalse
 \section{TLS and its issues}
 The TLS protocol \cite{Rescorla2018a} (and its predecessor SSL) are the basis of most Internet security, underpinning, for example, \verb+https+. They also have displayed some of the most prominent problems.
