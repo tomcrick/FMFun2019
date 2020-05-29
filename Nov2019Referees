@@ -1,0 +1,68 @@
+    ----------------------- REVIEW 1 ---------------------
+    SUBMISSION: 17
+    TITLE: Formal Methods and Cybersecurity Education
+    AUTHORS: James H. Davenport and Tom Crick
+
+    ----------- Overall evaluation -----------
+    SCORE: 0 (borderline paper)
+    ----- TEXT:
+    This submission reviews requirements and some points of views in cybersecurity. It suggests to introduce formal methods into software security assurance. 
+
+    Comments:
+    The title does not match with the submission. From the title, I would expect to see what’s the problems of education in formal method and cybersecurity and how to solve the problem. But the submission put the most effort on providing some researches in the cybersecurity domain, and has only a few sentences about education in the very late part. It only provides some surface problems of education such as lack of initiative，lack of practice and lack of educational resources. It could be interesting to see how to solves these problems. 
+
+    The article is hard to follow. The main problem is that it does not give an ``overview diagram’’. The relations of sections 2 to 5 are not very clear. It appears that papers in this scope are presented with a flatten manner. 
+
+    Some itemizations in the submission are not clear. For example, 
+    - what do [20], [21] and [22] mean on page 3 and 4. It is a wired way to present them if they mean the reference number. 
+    - In Page 4, [22]^5, there is no footnote number 5 on this page. 
+
+    Section 5 does not complete.
+
+
+
+    ----------------------- REVIEW 2 ---------------------
+    SUBMISSION: 17
+    TITLE: Formal Methods and Cybersecurity Education
+    AUTHORS: James H. Davenport and Tom Crick
+
+    ----------- Overall evaluation -----------
+    SCORE: -1 (weak reject)
+    ----- TEXT:
+    This is an option paper advocating a broader use of formal methods in the area of cybersecurity. The argument can be followed, and the paper contains a number of interesting remarks. 
+
+    However, I would have expected much more of a paper for a conference like this. Concrete didactical proposals are missing, not to mention their translation into effective teaching strategies /scenarios, and the report on concrete experiments driven by such strategies. As said, this is just an opinion paper.
+
+    Another observation concerns structure and form: the paper is written in a strange way, basically structured as comments / reactions to references. In the end, one gets the impression of being reading the notes the authors might have taken to write a paper, rather than the paper itself. 
+    Even in what concerns form this is a mess: e.g. i) page 2 - why are bullets labelled 6.5 and 6.6?; ii) page 7 - section 5 ends incompletely.
+
+
+
+    ----------------------- REVIEW 3 ---------------------
+    SUBMISSION: 17
+    TITLE: Formal Methods and Cybersecurity Education
+    AUTHORS: James H. Davenport and Tom Crick
+
+    ----------- Overall evaluation -----------
+    SCORE: 1 (weak accept)
+    ----- TEXT:
+    The paper provides an overview on the current state and attitude in cybersecurity with focus on UK. As a main claim, it argues that formal methods should be (more) applied to improve cybersecurity in general. To achieve this, it would be necessary to change coding methodologies, develop and apply tools, develop and incorporate specific training for undergraduate students and cybersecurity experts, etc. A series of nice examples and recent security breaches are provided for justification. 
+    The title and keywords are misleading since the content is not about education at student level. Education in a wider sense is addressed, which incorporates: change in people's attitude in use and acceptance of formal methods, use of coding methods, tool support, managers, designers and last but not least student education. 
+    I recommend to weak accept the paper as short survey paper (8 pages + references). Title, keywords and content should be revised, and made clear what the content is about and what the main claim and goals are.  
+
+    Explicit remarks: 
+    To me the title is a bit misleading. In the paper I can find the claim that formal methods can help to improve, but there are other important points that are made, such as coding approaches, tools, education, ... that need to change and/or improve. To me 'Improving Cybersecurity Education', sounds more applicable. I would also leave out the keywords 'undergraduate' and 'curricula'. Also 'UK' seems not important to me.   
+
+    P1, abstract …appear to  recommend … 
+    P1, l3: software
+    l4: performance
+    l4: add reference for Ligne 14
+    last line: adoption
+    P2 footnote 3: … it as failures…
+    P3, l4-5: I am convinced that 6.6 is necessary, even when full formal verification had been performed. Coding errors can be detected with verification but design problems may not. 
+    l16: add reference for TLS
+    P4, l8 footnote 5 is missing
+    P7, l6 – the server: Is there something missing?
+
+
+
